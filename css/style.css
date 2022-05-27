@@ -235,6 +235,7 @@ footer {
 
 .navbar i{
     font-size: 25px;
+    display: none;
 }
 
 /* .parent{
@@ -386,6 +387,11 @@ footer {
 
     .navlinks i{
         margin: 1rem;
+        
+    
+    }
+    .navbar i{
+        display: block;
         cursor: pointer;
     }
 }
