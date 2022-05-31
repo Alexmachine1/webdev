@@ -6,10 +6,12 @@
 }
 
 
-body {
+html,body {
     font-family: 'Poppins', sans-serif;
     background-color: rgb(221, 243, 252);
     overflow-x: hidden;
+    position: relative;
+    /* width: 100%; */
     /* this is used to remove the scroll bar at the bottom*/
 }
 
@@ -316,13 +318,14 @@ footer {
 
 @media screen and (max-width:690px){
 
-    .homesectionright {
-        width: 18rem;
+    .homesectionleft {
+        /* width: 18rem;
         margin-top: 10rem;
         position: relative;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); */
+        margin-left: 2rem;
     }
 
     .homesectionright img{
