@@ -24,17 +24,20 @@ html,body {
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    /* background-color: rgb(39, 15, 173);  */
+    background-color: rgb(39, 15, 173); 
     /* Set a background color */
-    color: rgb(28, 13, 143); /* Text color */
+    color: #fff; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
+    padding: 0; 
+    /* Some padding */
     border-radius: 10px; /* Rounded corners */
-    font-size: 50px; /* Increase font size */
+    font-size: 30px; /* Increase font size */
+    /* margin: 3rem; */
   }
   
+  
   #myBtn:hover {
-    /* background-color: #555;  Add a dark-grey background on hover */
+    background-color: #555;  /* Add a dark-grey background on hover */
   }
 
 .navbar {

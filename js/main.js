@@ -2,6 +2,9 @@
 const menuOpen = document.querySelector("#openMenu")
 const menuClose = document.querySelector("#closeMenu")
 const navMenu = document.querySelector(".navlinks")
+const navClose = document.querySelector(".navClose").addEventListener("click", ()=>{
+    navMenu.style.right = "-200px"
+})
 
 
 menuOpen.addEventListener("click", function(){
@@ -11,6 +14,10 @@ menuOpen.addEventListener("click", function(){
 menuClose.addEventListener("click", function(){
     navMenu.style.right = "-200px"
 })
+
+
+
+
 
 //Get the button:
 mybutton = document.getElementById("myBtn");
@@ -28,6 +35,6 @@ function scrollFunction() {
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
+  document.body.style.top = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
